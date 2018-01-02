@@ -1,4 +1,4 @@
-/* Agregando estilos para splash */
+/* Agregando estilos para splash / vista principal */
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -11,7 +11,11 @@ body {
     height: 100%;
     top: 0;
     left: 0;
-    background-image: url('../assets/images/img-2.jpg');
+    background-image: url('../assets/images/fondo.png');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
     overflow: hidden;
 }
 
@@ -24,12 +28,14 @@ body {
 
 .welcome-section .content-wrap .fly-in-text {
     list-style: none;
+    padding-bottom: 0;
+    margin: 0;
 }
 
 .welcome-section .content-wrap .fly-in-text li{
     margin-right: 30px;
     font-size: 3em;
-    -webkit-text-fill-color: white;
+    -webkit-text-fill-color: rgb(221, 203, 36);
     -webkit-text-stroke: 1px black;
     text-shadow: -2px -2px 1px #000;
     opacity: 1;
@@ -40,7 +46,8 @@ body {
     text-align: center;
     font-size: 1.3em;
     text-decoration: none;
-    -webkit-text-fill-color: rgb(221, 203, 36);
+    -webkit-text-fill-color: white;
     -webkit-text-stroke: 1px black;
     opacity: 1;
 }   
+

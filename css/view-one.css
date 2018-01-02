@@ -1,0 +1,20 @@
+/* Agregando estilos a la seguna vista */
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+hr {
+    border: 5px solid rgb(224, 195, 34);
+    border-radius: 200px /8px;
+    height: 0px;
+    text-align: center;
+}
+
+h1{
+    font-size: 3em;
+    font-weight: bold;
+    -webkit-text-fill-color: rgb(224, 195, 34);
+    -webkit-text-stroke: 1px black;
+    opacity: 1;
+}

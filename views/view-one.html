@@ -7,19 +7,62 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/view-one.css">
     <title>FoodMap</title>
 </head>
 <body>
-    <ul>
-        <li>D</li>
-        <li>S</li>
-        <li>W</li>
-        <li>W</li>
-        <li>Y</li>
-    </ul>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="title text-center">Foodmap</h1>
+                    <hr class="content">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                    <img class="img-responsive thumbnail" src="../assets/images/map.jpg" alt="imagen">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h3 class="text-center">Comida cerca de ti</h3>
+                    <form>
+                        <div class="input-group">
+                            <input id="input" type="text" class="form-control" name="restaurants" placeholder="Filtrar restaurantes">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12" id="restaurant">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="../vendors/jquery/jquery-3.2.1.slim.min.js"></script>
     <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
     <script src="../js/data.js"></script>
+    <script src="../js/restaurants.js"></script>
 </body>
 </html>

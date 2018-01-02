@@ -124,4 +124,3 @@ var data = {
             'address': 'Jirón Colina 112',
             'phone': '+51 1 2475963',
         }],
-};
